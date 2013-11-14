@@ -1,0 +1,249 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Curri</title>
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+
+ <link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+
+ <link href='http://fonts.googleapis.com/css?family=Knewave' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <style>
+
+  * {
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+  nav {
+    height: 75px;
+  }
+
+  nav, .profile, .clients, .work {
+    width: 100%;
+  }
+
+  nav, .clients {
+    background-color: #f6f7f9;
+  }
+
+  .profile {
+    background-color: #5f64a8;
+    height: 265px;
+    padding-top: 40px;
+  }
+
+  .clients {
+    height: 100px;
+
+  }
+
+  .client {
+    height: 100px;
+    width: 960px;
+    background-image:url('companies.png');
+    background-size: 960px 100px;
+    background-repeat:no-repeat;
+  }
+
+  .work {
+    height: 300px;
+    background-color: white;
+    border-top: 1px solid #b0b2c7;
+  }
+
+  .wrapper {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  .image {
+    float: left;
+    padding: 10px 0;
+  }
+
+  .toc {
+    float: right;
+/*    height: 75px;
+    padding: 10px;*/
+  }
+  .toc ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .toc ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 0;
+    font-family: 'Raleway', sans-serif;
+    padding: 31px 10px 20px 10px;
+    height: 24px;
+    cursor: pointer;
+  }
+
+  .toc ul li:hover {
+    background-color: white;
+  }
+
+  .circle {
+    border-radius: 50%;
+    background-color: #79b8c7;
+  }
+
+  .circle:hover {
+    background-color: #79b8c7 !important;
+  }
+
+  .circle .hire {
+    display: block;
+    font-family: 'Knewave';
+    font-size: .8em;
+    transform:rotate(-22deg);
+    -webkit-transform:rotate(-22deg);
+  }
+
+  .avatar {
+        border: 1px solid #dedfe0;
+        border-radius: 50%;
+        display: block;
+        height: 175px;
+        width: 175px;
+        float: left;
+}
+
+  .john {
+    float: left;
+    width: 70%;
+      margin: 0px 10px 10px 20px;
+      padding: 0px 10px 10px 10px;
+  }
+
+  .john h1 {
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 3em;
+  }
+
+  .john h3 {
+    padding: 10px 0;
+    color: #545897;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.5em;
+  }
+
+.john span {
+    color: #dedfe0;
+    font-family: 'Raleway', sans-serif;
+    font-size: .92em;
+    line-height: 1.4em;
+  }
+
+  .more {
+    margin-top: 10px;
+    font-size: .8em;
+    padding: 10px 30px;
+    background-color: gray;
+    display: inline-block;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #ffffff 0%,#d8dcf8 100%);
+
+  }
+
+  .work_title {
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .work_image {
+    height: 200px;
+    width: 960px;
+    background-image:url('clients.png');
+    background-size: 960px 200px;
+    background-repeat:no-repeat;
+  }
+
+
+/*.avatar img {
+        border: 5px solid rgba(0, 0, 0, 0.2);
+        border-radius: 45px; must be width + border
+        width: 80px;
+        height: 80px;
+}
+*/
+
+/*  .hire {
+    display: inline-block;
+    margin-left: 20px;
+    float: right;
+    border-radius: 50%;
+    background-color: #79b8c7;
+    height: 75px;
+    width: 75px;
+  }
+
+  .hire a {
+    padding: 31px 10px 20px 10px;
+  }*/
+
+  </style>
+
+  <nav>
+    <div class="wrapper">
+
+      <div class="image">
+        <img src="logo.png" alt="Logo" height="50px">
+      </div>
+       <!-- <div class="hire">
+        <a href="mailto:jen_scales@yahoo.com?subject=Want%20a%20job">Hire Me</a>
+      </div> -->
+      <div class="toc">
+        <ul>
+          <li>ABOUT</li>
+          <li>WORK</li>
+          <li>SERVICES</li>
+          <li>EXPERIENCE</li>
+          <li class="circle"><span class="hire">HIRE ME</span></li>
+        </ul>
+      </div>
+
+
+    </div>
+
+  </nav>
+
+  <section class="profile">
+
+    <div class="wrapper">
+
+        <img src="profile-pic.png" alt="" height="100px" class="avatar">
+
+      <div class="john">
+        <h1>John Doe Mcfly</h1>
+          <h3>Front-end developer, coffee lover & part-time photographer.</h3>
+          <span>Hi there, I'm a front-end developer with over 11 years experience. I have a passion for details and visual quality. Experience on handling ambitious deadlines, organized and a good team-player.</span>
+
+          <div class="more"><strong>FIND OUT MORE</strong></div>
+
+  </section>
+
+  <section class="clients">
+
+    <div class="wrapper">
+      <div class="client"></div>
+    </div>
+
+  </section>
+
+  <section class="work">
+    <div class='wrapper'>
+      <div class="work_title"><h2>Work</h2></div>
+      <div class="work_image"></div>
+    </div>
+  </section>
+
+
+</body>
+</html>
